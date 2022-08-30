@@ -1,0 +1,21 @@
+// Программа, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
+
+Console.WriteLine("Введите два числа и программа скажет какое из них больше");
+
+Console.WriteLine("Введите первое число");
+int a = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите второе число");
+int b = int.Parse(Console.ReadLine());
+
+if (a > b)
+{
+    Console.WriteLine("Первое число больше чем второе число");
+}
+if (a < b)
+{
+    Console.WriteLine("Второе число больше чем первое число");
+}
+if (a == b)
+{
+    Console.WriteLine("Первое и второе число равны");
+}
